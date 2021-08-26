@@ -1,0 +1,8 @@
+.border-left{
+    border-left-width:10px !important;
+    border-left-style:solid;
+}
+
+.br-rad-50{
+     border-bottom-right-radius: 50px;
+}

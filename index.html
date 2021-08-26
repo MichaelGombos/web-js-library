@@ -10,8 +10,35 @@
     <link href="css/custom.min.css" rel="stylesheet">
     <title>Library</title>
 </head>
-<body>
-    <h1>Library</h1>
+<body class="bg-secondary">
+    <div  class="container">
+        <div  class=" row ">
+            <div  class="mt-5  pt-2 pb-5 col-8 border-primary border-left text-white bg-dark br-rad-50">
+                <h1 class="text-primary display-1">Library</h1>
+                <form class="row mx-0">
+                    <div class="col">
+                        <label for="book">Book</label>
+                        <input type="text" name="book" id="book">
+                    </div>
+                    <div class="col">                        
+                        <label for="author">Author</label>
+                        <input type="text" name="author" id="author">
+                    </div>
+
+                    <div class="col">
+                        <label for="pages">Pages</label>
+                        <input type="text" name="pages" id="pages">
+                    </div>
+                    
+                    <div class="col">
+                        <label for="read">Read?</label>
+                        <input type="" class="" name="read" id="read">
+                    </div>
+                </form>
+                <button class="btn btn-primary text-white" id="primary-submit">Submit</button>
+            </div>
+        </div>
+    </div>
     <script src='main.js'></script>
 </body>
 </html>
