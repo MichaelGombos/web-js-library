@@ -1,8 +1,18 @@
-.border-left{
-    border-left-width:10px !important;
-    border-left-style:solid;
+.border-left {
+  border-left-width: 10px !important;
+  border-left-style: solid;
 }
 
-.br-rad-50{
-     border-bottom-right-radius: 50px;
+.br-rad-50 {
+  border-bottom-right-radius: 50px;
+}
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 30px;
+  background: white;
+  border-radius: 2px;
+}
+input[type="checkbox"]:checked {
+  background: #c36be8;
 }
