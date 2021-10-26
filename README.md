@@ -8,5 +8,5 @@ This is a project created as part of the odin projects 'Javascript' Curriculum.
 
 ## Live
 
-Check it the live site!
+Check out the live site!
 https://michaelgombos.github.io/web-js-library/
